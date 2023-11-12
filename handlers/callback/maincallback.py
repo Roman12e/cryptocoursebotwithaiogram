@@ -5,16 +5,15 @@ from database.db import cur, conn
 
 from keyboard import keyboard
 from binance import Client
-from apikey import apikey
 
 import asyncio
-
+from settings import api_key, api_secret
 
 list_of_cripto = []
 
 client = Client(
-    apikey.api_key,
-    apikey.api_secret,
+    api_key,
+    api_secret,
     testnet=True
 )
 

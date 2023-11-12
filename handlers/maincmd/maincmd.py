@@ -7,14 +7,13 @@ from aiogram import types
 from binance import Client
 
 from keyboard import keyboard
-from apikey import apikey
-
+from settings import api_key, api_secret
 
 list_of_cripto = []
 
 client = Client(
-    apikey.api_key,
-    apikey.api_secret,
+    api_key,
+    api_secret,
     testnet=True
 )
 
