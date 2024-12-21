@@ -17,7 +17,7 @@ client = Client(
     testnet=True
 )
 
-admin_1 = 972244742
+admin_1 = ''
 off_mode = True
 
 help_text = """
