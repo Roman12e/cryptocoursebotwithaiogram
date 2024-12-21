@@ -18,7 +18,7 @@ client = Client(
 )
 
 
-admin_1 = 972244742
+admin_1 = ''
 new_user_id = ''
 
 help_text = """
